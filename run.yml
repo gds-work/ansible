@@ -9,6 +9,6 @@
       register: "output"
     - name: run ansible playbook locally
       debug:
-      msg: "Hi This Is DecodingDevOps"
+      msg: "Hi This is DevOps"
 
     - debug: var=output.stdout_lines
