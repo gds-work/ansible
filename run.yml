@@ -7,5 +7,8 @@
     - name: "just execute a ls -lrt command"
       shell: "ls -lrt"
       register: "output"
+    - name: run ansible playbook locally
+      debug:
+      msg: "Hi This Is DecodingDevOps"
 
     - debug: var=output.stdout_lines
